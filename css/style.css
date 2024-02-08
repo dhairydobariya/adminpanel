@@ -1,0 +1,242 @@
+body{
+	font-family: 'Helvetica Neue';
+}
+.ff-1{
+	 font-family: 'Roboto';
+}
+.primary{
+	color:#e3e3e3;
+}
+.secondary{
+	color:#ffa534;
+}
+.info{
+	color:#9a9a9a;
+}
+.dark{
+	color:#333;
+}
+.green{
+	color:#87cb16;
+}
+.red{
+	color:#fb404b;
+}
+.blue{
+	color:#1d62f0;
+}
+.yellow{
+	color:#ffa534;
+}
+.white{
+	color:white;
+}
+.fs-22{
+	font-size:22px;
+}
+.fs-14{
+	font-size:14px;
+}
+.fs-12{
+	font-size:12px;
+}
+.header-logo input{
+	outline:none;
+	border:none;
+	
+}
+p{
+	margin:0;
+}
+header{
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	background-color:#fff;
+	z-index:99;
+}
+.header-logo input placeholder{
+	color:#e3e3e3;
+}
+
+.tania-box{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+}
+.slidebar{
+	width:260px;
+	height:calc(100vh - 56px);
+	overflow-y:scroll;
+	 background: url("../images/sidebar-5.jpg"), rgba(213,135,324,0.9); 
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	z-index:1;
+	transition:all 0.5s;
+	overflow:hidden;
+}
+.menu{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background-color:#ffa534;
+}
+.slide-bar{
+	position:fixed;
+	top:56px;
+	left:0;
+	overflow-y:scroll;
+	color:#ffffff21
+}
+.slidebar::before,.slide-bar::before{
+	content:'';
+	position:absolute;
+	background: linear-gradient(to bottom,#FFA534 0%,rgba(255,82,33,0.7) 100%);
+	top:0;
+	left:0;
+	width:100%;
+	height:calc(100vh - 56px);
+	z-index:-1;
+}
+.slidebar ul li a{
+	text-decoration:none;
+	display:block;
+	margin:5px 15px 0px 10px ;
+	padding:10px 15px;
+	color:white;
+	display:flex;
+	align-items:center;
+	font-size:12px;
+}
+.slidebar ul li a i{
+	font-size:30px;
+	margin-right:15px;
+}
+.slide-dropdown-menu{
+	display:none; 
+}
+.slide-dropdown-menu ul li a{
+	font-size:14px;
+}
+.collaps-sideabr{
+	width:70px;
+}
+.slidebar.collaps-sideabr:hover{
+	width:240px;
+}
+.slidebar.collaps-sideabr ul li a{
+	margin:0;
+}
+.slidebar> ul> li:hover >a{
+	background-color:rgba(255,255,255,.13);
+}
+.slide-dropdown-menu ul li a:hover{
+		background-color:rgba(255,255,255,.13);
+}
+.page-body{
+	margin-top:56px;
+	margin-left:260px;
+	display:block;
+	padding:30px 15px;
+	font-family:'Roboto';
+}
+.card{
+	margin-bottom:30px;
+}
+.card .card-body .card-contant .card-detail p{
+		font-size:14px;
+		font-weight:400;
+}
+.card .card-body .card-contant .card-detail h3{
+	font-size:20px;
+	font-weight:500;
+}
+.card .card-footer{
+	background-color:transparent;
+	font-size:14px;
+}
+.card #SvgjsG1010 path{
+	fill: #1dc7ea;
+}
+.card #SvgjsG1036 path{
+    fill: #ffa534;
+}
+.card #SvgjsG1023 path{
+    fill: #fb404b;
+}
+.apexcharts-legend.apexcharts-align-center.apx-legend-position-right {
+    display: none;
+}
+.card .apexcharts-toolbar{
+	display:none;
+}
+
+
+
+
+
+/* login page */
+.login{
+	position:relative;
+	 font-family: 'Roboto';
+}
+.login-bg{
+	background-image:url('../images/full-screen-image-2.jpg');
+	width:100%;
+	height:100vh;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	z-index:-1;
+}
+.login-bg::after{
+	position:absolute;
+	top:0;
+	 left:0;
+	 width:100%;
+	 height:100%;
+	 background-color:#f1f1f1;
+	 z-index:1;
+	 opacity:0.6;
+}
+.card.card-login{
+	width:345px;
+	background-color:white;
+}
+
+
+.reg-bg{
+	background-image: url('../images/bg5.jpg');
+	width:100%;
+	height:100vh;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	z-index:-1;	
+	color:white;
+	
+}
+.reg-over{
+	position: absolute;
+	background: linear-gradient(to bottom,#FFA534 0%,rgba(255,82,33,0.7) 100%);
+	top: 0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.reg-bg .card{
+	background-color: transparent;
+}
+.reg-bg .card input,.reg-bg .card{
+	padding:10px;
+	margin:10px 0px ;
+	border: none;
+}
+.reg-bg .card .header-text{
+	color:white;
+}
